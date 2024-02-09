@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Protest+Revolution&family=Raleway:wght@500&family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
     --main-bg-color: black;
@@ -169,7 +162,7 @@ nav ul li a:hover {
 }
 
 .login {
-    height: 60vh;
+    height: 70vh;
     width: 25vw;
     border: 4px solid black;
     display: flex;
@@ -177,6 +170,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     outline: 2px solid rgb(242, 255, 0);
+    margin-top: 5vh
 }
 
 .top {
@@ -318,74 +312,88 @@ nav ul li a:hover {
 .cart-text-bottom hr {
     width: 30vw;
 }
-.terms{
+
+.terms {
     background-color: var(--main-bg-color);
     height: 12vh;
 }
-.container4{
+
+.container4 {
     min-height: calc(100vh - 10vh - 10vh);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.terms-text{
+
+.terms-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 70vw;
 }
-.terms-text h1{
+
+.terms-text h1 {
     border: 2px solid black;
     outline: 2px solid rgb(242, 255, 0);
-    padding: 0vh 1vw ;
+    padding: 0vh 1vw;
     font-family: 'Inter', sans-serif;
 }
-.terms-text h2{
+
+.terms-text h2 {
     border: 1px solid black;
     padding: 0vh 1vw;
     font-family: 'Inter', sans-serif;
 }
-.terms-text p{
+
+.terms-text p {
     font-family: 'Inter', sans-serif;
 }
-.container5{
+
+.container5 {
     min-height: calc(100vh - 10vh - 10vh);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
-.policy-text{
+
+.policy-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 70vw;
 }
-.policy-text h1{
+
+.policy-text h1 {
     border: 2px solid black;
-    outline: 2px solid rgb(242, 255, 0) ;
+    outline: 2px solid rgb(242, 255, 0);
     padding: 0vh 1vw;
     font-family: 'Inter', sans-serif;
 }
-.policy-text h2{
+
+.policy-text h2 {
     border: 2px solid black;
     padding: 0vh 1vw;
     font-family: 'Inter', sans-serif;
 }
-.policy-text p{
+
+.policy-text p {
     font-family: 'Inter', sans-serif;
 }
-.policy-text ul{
+
+.policy-text ul {
     font-family: 'Inter', sans-serif;
 }
-.policy-text li{
+
+.policy-text li {
     font-family: 'Inter', sans-serif;
     border: 2px solid black;
     padding: 0vh 1vw;
 }
+
 .signup {
     height: 90vh;
     width: 25vw;
@@ -396,6 +404,7 @@ nav ul li a:hover {
     align-items: center;
     outline: 2px solid rgb(242, 255, 0);
 }
+
 .signup-top {
     display: flex;
     justify-content: center;
@@ -464,6 +473,7 @@ nav ul li a:hover {
     width: 20vw;
     margin: 2vh 0vw;
 }
+
 footer {
     background: var(--main-bg-color);
     color: white;

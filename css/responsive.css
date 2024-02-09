@@ -1,218 +1,271 @@
 @media screen and (max-width:1000px) {
-    nav{
+    nav {
         display: flex;
         flex-direction: column;
         height: 23vh;
         justify-content: center;
         align-items: center;
     }
-    .logo{
+
+    .logo {
         display: flex;
         justify-content: center;
         margin: 2vh 0vw;
         height: 8vh;
         margin-left: 3vw;
     }
-    nav ul{
+
+    nav ul {
         display: flex;
         align-items: center;
         margin: 2vh 0vw;
         height: 4vh;
     }
-    nav ul li{
-       height: 4vh;
-       margin-right: 5vw;
+
+    nav ul li {
+        height: 4vh;
+        margin-right: 5vw;
     }
-    .search{
+
+    .search {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 2vh 0vw;
     }
-    .search input{
+
+    .search input {
         height: 4vh;
         /* margin-right: 3vw; */
     }
-    .search input:hover{
+
+    .search input:hover {
         height: 4vh;
     }
-    .search button{
+
+    .search button {
         width: 10vw;
         height: 4.5vh;
         margin-right: 8vw;
     }
-    .search button:hover{
+
+    .search button:hover {
         width: 10vw;
         height: 4.5vh;
         margin-right: 8vw;
     }
-    .card{
+
+    .card {
         height: 30vh;
     }
-    .card img{
+
+    .card img {
         height: 20vh;
     }
-    .login{
+
+    .login {
         width: 50vw;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
     }
-    .login input{
+
+    .login input {
         width: 30vw;
         height: 4vh;
     }
-    .login input:hover{
+
+    .login input:hover {
         width: 30vw;
         height: 4vh;
     }
-    .login button{
+
+    .login button {
         width: 30vw;
         height: 4vh;
     }
-    .login button:hover{
+
+    .login button:hover {
         width: 30vw;
         height: 4vh;
     }
-    .login hr{
-       width: 40vw;
+
+    .login hr {
+        width: 40vw;
     }
-    .top{
+
+    .top {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .signup{
+
+    .signup {
         width: 40vw;
         height: 90vh;
     }
-    .signup input{
+
+    .signup input {
         width: 30vw;
     }
-    .signup input:hover{
+
+    .signup input:hover {
         width: 30vw;
     }
-    .signup button{
+
+    .signup button {
         width: 30vw;
     }
-    .signup button:hover{
+
+    .signup button:hover {
         width: 30vw;
     }
-    .signup hr{
+
+    .signup hr {
         margin-left: 1vw;
     }
-    .cart-img{
+
+    .cart-img {
         height: 24vh;
     }
-    .cart-img:hover{
+
+    .cart-img:hover {
         height: 24vh;
     }
-    .cart-img img{
+
+    .cart-img img {
         height: 24vh;
     }
 }
+
 @media screen and (max-width:500px) {
-    nav{
+    nav {
         height: 23vh;
     }
-    nav ul li{
+
+    nav ul li {
         height: 3vh;
         margin-left: 10vw;
         padding: 0.2vh 2vw 0vh 2vw;
     }
-    nav ul{
+
+    nav ul {
         height: 3vh;
         margin-right: 6vw;
     }
-    .search input{
+
+    .search input {
         width: 60vw;
         height: 3vh;
     }
-    .search input:hover{
+
+    .search input:hover {
         width: 60vw;
         height: 3vh;
     }
-    .search button{
+
+    .search button {
         height: 3.4vh;
         width: 15vw;
     }
-    .search button:hover{
+
+    .search button:hover {
         height: 3.4vh;
         width: 15vw;
     }
-    .card{
+
+    .card {
         height: 25vh;
     }
-    .card img{
+
+    .card img {
         height: 10vh;
     }
-    .login{
+
+    .login {
         width: 75vw;
         height: 55vh;
     }
-    .login input{
-      width: 60vw;
-      height: 4vh;
-    }
-    .login input:hover{
-      width: 60vw;
-      height: 4vh;
-    }
-    .login button{
+
+    .login input {
         width: 60vw;
         height: 4vh;
     }
-    .login button:hover{
+
+    .login input:hover {
         width: 60vw;
         height: 4vh;
     }
-    .login hr{
+
+    .login button {
+        width: 60vw;
+        height: 4vh;
+    }
+
+    .login button:hover {
+        width: 60vw;
+        height: 4vh;
+    }
+
+    .login hr {
         width: 65vw;
     }
-    .signup{
+
+    .signup {
         width: 75vw;
     }
-    .signup input{
+
+    .signup input {
         width: 60vw;
         height: 4vh;
     }
-    .signup input:hover{
+
+    .signup input:hover {
         width: 60vw;
         height: 4vh;
     }
-    .signup button{
+
+    .signup button {
         width: 60vw;
         height: 4vh;
     }
-    .signup button:hover{
+
+    .signup button:hover {
         width: 60vw;
         height: 4vh;
     }
-    .signup hr{
+
+    .signup hr {
         width: 60vw;
     }
-    .container3{
+
+    .container3 {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
-    .cart-img{
-       width: 60vw;
-       height: 25vh;
-    }
-    .cart-img:hover{
-       width: 60vw;
-       height: 25vh;
-    }
-    .cart-img img{
+
+    .cart-img {
         width: 60vw;
-       height: 25vh;
+        height: 25vh;
     }
-    .cart-text{
-      width: 75vw;
+
+    .cart-img:hover {
+        width: 60vw;
+        height: 25vh;
     }
-    .cart-text:hover{
-      width: 75vw;
+
+    .cart-img img {
+        width: 60vw;
+        height: 25vh;
+    }
+
+    .cart-text {
+        width: 75vw;
+    }
+
+    .cart-text:hover {
+        width: 75vw;
     }
 }
