@@ -1,0 +1,13 @@
+@keyframes loadbar {
+    0% {
+        width: 0vw;
+    }
+
+    20% {
+        width: 20vw;
+    }
+
+    100% {
+        width: 98.8vw;
+    }
+}
